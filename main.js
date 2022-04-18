@@ -1,6 +1,6 @@
 import './style.css';
-import  Deck  from "/node_modules/siete-medio/clases/Deck.js";
-import  Hand  from "/node_modules/siete-medio/clases/Hand.js";
+import  Deck  from "./node_modules/siete-medio/clases/Deck.js";
+import  Hand  from "./node_modules/siete-medio/clases/Hand.js";
 
 const deckCards = new Deck();
 const player1 = new Hand();
@@ -70,12 +70,12 @@ document.getElementById("startGame").addEventListener("click", ()=>{
 const firstCards = (deckCard,player)=>{
   //To show
   const firstCard = document.createElement("img");
-  firstCard.setAttribute('src',`/node_modules/siete-medio/img/${deckCard}.png`);
+  firstCard.setAttribute('src',`./node_modules/siete-medio/img/${deckCard}.png`);
   document.querySelector("#back"+player).appendChild(firstCard);
 
   //to Hidden
   const firstCardHidden = document.createElement("img");
-  firstCardHidden.setAttribute('src',`/node_modules/siete-medio/img/r0.png`);
+  firstCardHidden.setAttribute('src',`./node_modules/siete-medio/img/r0.png`);
   document.querySelector("#front"+player).appendChild(firstCardHidden);
 }
 
@@ -94,7 +94,7 @@ const dealPlayer = (player) => {
 //Deal Card Player
 const showCardDeal = (deckCard,player) =>{
   const img = document.createElement("img");
-  img.setAttribute('src',`/node_modules/siete-medio/img/${deckCard}.png`);
+  img.setAttribute('src',`./node_modules/siete-medio/img/${deckCard}.png`);
   let playerImg = 'img'+player.toString().charAt(0).toUpperCase() + player.slice(1);
   document.getElementById(playerImg).appendChild(img);
 }
