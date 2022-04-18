@@ -70,12 +70,12 @@ document.getElementById("startGame").addEventListener("click", ()=>{
 const firstCards = (deckCard,player)=>{
   //To show
   const firstCard = document.createElement("img");
-  firstCard.setAttribute('src',`${img}/${deckCard}.png`);
+  firstCard.setAttribute('src',`./node_modules/siete-medio/img/${deckCard}.png`);
   document.querySelector("#back"+player).appendChild(firstCard);
 
   //to Hidden
   const firstCardHidden = document.createElement("img");
-  firstCardHidden.setAttribute('src',`${img}/r0.png`);
+  firstCardHidden.setAttribute('src',`./node_modules/siete-medio/img/r0.png`);
   document.querySelector("#front"+player).appendChild(firstCardHidden);
 }
 
