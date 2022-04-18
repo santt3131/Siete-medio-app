@@ -1,4 +1,4 @@
-import './dist/style.css';
+import './style.css';
 import  Deck  from "./node_modules/siete-medio/clases/Deck.js";
 import  Hand  from "./node_modules/siete-medio/clases/Hand.js";
 
