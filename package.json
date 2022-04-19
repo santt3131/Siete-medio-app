@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install && vite build  ",
+    "build": "npm install && vite build  && npm run fix-netlify2 ",
     "fix-netlify2": "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist ",
     "preview": "vite preview"
   },
