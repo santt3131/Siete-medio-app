@@ -1,17 +1,5 @@
-/* import './style.css'; */
 import  Deck  from "./node_modules/siete-medio/clases/Deck.js";
 import  Hand  from "./node_modules/siete-medio/clases/Hand.js";
-/* import './node_modules/siete-medio/img/b1.png';
-import './node_modules/siete-medio/img/b2.png';
-import './node_modules/siete-medio/img/b3.png';
-import './node_modules/siete-medio/img/b4.png';
-import './node_modules/siete-medio/img/b5.png';
-import './node_modules/siete-medio/img/b6.png';
-import './node_modules/siete-medio/img/b7.png';
-import './node_modules/siete-medio/img/b10.png';
-import './node_modules/siete-medio/img/b11.png';
-import './node_modules/siete-medio/img/b12.png';
-import './node_modules/siete-medio/img/portada.png'; */
 
 const deckCards = new Deck();
 const player1 = new Hand();
