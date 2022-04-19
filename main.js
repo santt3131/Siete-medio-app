@@ -11,6 +11,7 @@ import './node_modules/siete-medio/img/b7.png';
 import './node_modules/siete-medio/img/b10.png';
 import './node_modules/siete-medio/img/b11.png';
 import './node_modules/siete-medio/img/b12.png';
+import './node_modules/siete-medio/img/portada.png';
 
 const deckCards = new Deck();
 const player1 = new Hand();
